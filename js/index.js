@@ -1,9 +1,11 @@
 $(function () {
   const config = {
-	apiKey: "AIzaSyDY7PK-uuiHwruY262B0W5C8SgtgqzSeV4",
-    authDomain: "restaurant-5e056.firebaseapp.com",
-    databaseURL: "https://restaurant-5e056.firebaseio.com",  
-    storageBucket: "restaurant-5e056.appspot.com",
+    apiKey: "AIzaSyCxN9WkUXTzmYmobSEa8KHHp2vhB91tESY",
+    authDomain: "yasser-c336f.firebaseapp.com",
+    databaseURL: "https://yasser-c336f.firebaseio.com",
+    projectId: "yasser-c336f",
+    storageBucket: "yasser-c336f.appspot.com",
+    messagingSenderId: "746279433249"
   };
   firebase.initializeApp(config);
   $('.js-firebase-form').on('submit', event => {
