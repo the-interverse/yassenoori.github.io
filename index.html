@@ -22,7 +22,7 @@
   $('.js-firebase-form').on('submit', event => {
     event.preventDefault();
     const email = '1@mail.com';
-    const password = '1';
+    const password = '123456';
     const item = $('#firebase-input').val();
     firebase.auth().signInWithEmailAndPassword(email, password)
       .then(user => {
