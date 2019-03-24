@@ -3,7 +3,7 @@ $(function(){
   var data =[];
   
   //create a new connection to firebase
-  var ref = new Firebase('https://seneca-activs.firebaseio.com/activities');
+  var ref = new Firebase('https://yasser1.firebaseio.com/activities');
 	
   //listen to data updates from firebase
   ref.on("value", function(snapshot){
